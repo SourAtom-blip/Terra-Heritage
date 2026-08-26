@@ -3,8 +3,8 @@ import Footer from "@/components/Footer";
 import LeadForm from "@/components/LeadForm";
 
 export const metadata = {
-  title: "Contact | Terra Heritage",
-  description: "Get in touch with Terra Heritage for a free, no-obligation land valuation.",
+  title: "Contact | Beacon Land Holdings",
+  description: "Get in touch with Beacon Land Holdings for a free, no-obligation land valuation.",
 };
 
 export default function ContactPage() {
@@ -24,10 +24,9 @@ export default function ContactPage() {
       </section>
 
       <section className="py-24 bg-soft-sand">
-        <div className="max-w-max-width mx-auto px-margin-mobile md:px-margin-desktop grid grid-cols-1 lg:grid-cols-3 gap-8 mb-16">
+        <div className="max-w-2xl mx-auto px-margin-mobile md:px-margin-desktop grid grid-cols-1 sm:grid-cols-2 gap-8 mb-16">
           <ContactCard icon="call" title="Call Us" detail="(601) 283-8734" href="tel:6012838734" />
-          <ContactCard icon="mail" title="Email Us" detail="contact@terraheritage.com" href="mailto:contact@terraheritage.com" />
-          <ContactCard icon="location_on" title="Mailing Address" detail="P.O. Box 1234, Heritage City, ST 12345" />
+          <ContactCard icon="mail" title="Email Us" detail="contact@beaconlandholdings.com" href="mailto:contact@beaconlandholdings.com" />
         </div>
 
         <div className="max-w-4xl mx-auto px-margin-mobile md:px-margin-desktop">

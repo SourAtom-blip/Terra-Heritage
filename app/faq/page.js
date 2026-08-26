@@ -2,15 +2,15 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "FAQ | Terra Heritage",
-  description: "Frequently asked questions about selling land to Terra Heritage.",
+  title: "FAQ | Beacon Land Holdings",
+  description: "Frequently asked questions about selling land to Beacon Land Holdings.",
 };
 
 const FAQS = [
   {
     question: "How long does the process take?",
     answer:
-      "Typically, we present an offer within 48 hours of reviewing your property details. If accepted, closing usually takes 2 to 4 weeks depending on the complexity of title work.",
+      "Typically, we present an offer within 48-72 hours of reviewing your property details. From our first conversation to closing, the average transaction takes 30 to 90 days.",
   },
   {
     question: "Are there any hidden fees or commissions?",
@@ -49,7 +49,7 @@ export default function FaqPage() {
             Frequently Asked Questions
           </h1>
           <p className="font-body-lg text-body-lg text-on-primary/80 max-w-2xl mx-auto">
-            Everything you need to know before selling your land to Terra Heritage.
+            Everything you need to know before selling your land to Beacon Land Holdings.
           </p>
         </div>
       </section>

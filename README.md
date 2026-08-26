@@ -1,4 +1,4 @@
-# Terra Heritage
+# Beacon Land Holdings
 
 Land investment marketing site and lead-capture backend, built with Next.js (App Router) and MongoDB. Deploys to Vercel with zero configuration beyond environment variables.
 

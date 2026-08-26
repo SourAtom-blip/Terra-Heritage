@@ -1,9 +1,9 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Terra Heritage - Land Investments",
+  title: "Beacon Land Holdings - Land Investments",
   description:
-    "Terra Heritage is a heritage land investment company specializing in fast, transparent cash purchases of rural and vacant land.",
+    "Beacon Land Holdings is a family owned and operated land investment company specializing in fast, transparent cash purchases of raw and vacant land.",
 };
 
 export default function RootLayout({ children }) {

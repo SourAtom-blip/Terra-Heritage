@@ -80,10 +80,10 @@ export default function HomePage() {
           <div className="text-center max-w-2xl mx-auto mb-16">
             <h2 className="font-headline-md text-headline-md text-primary mb-4">Services &amp; What We Do</h2>
             <p className="font-body-md text-body-md text-on-surface-variant">
-              Comprehensive solutions for land owners looking to sell or manage their property.
+              Straightforward solutions for landowners ready to sell, and for buyers looking to acquire raw land.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {SERVICES.map((service) => (
               <div
                 key={service.title}
@@ -107,7 +107,7 @@ export default function HomePage() {
           <h2 className="font-headline-md text-headline-md mb-6 uppercase tracking-wider">Service Areas</h2>
           <p className="font-body-lg text-body-lg text-on-primary/80 max-w-3xl mx-auto mb-12">
             We operate nationwide with a strong focus on acquiring rural land in the Southeast, Midwest, and beyond.
-            Whether you own a few acres or a large tract, we are ready to evaluate your property.
+            No matter the size of your property we are ready to evaluate it.
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 font-body-md text-on-primary/90">
             {["Southeast", "Midwest", "Southwest", "Nationwide"].map((area) => (
@@ -202,18 +202,15 @@ export default function HomePage() {
 const SERVICES = [
   {
     icon: "payments",
-    title: "Direct Cash Offers",
-    description: "Fast liquidity with no financing contingencies. We provide clear, no-obligation cash offers.",
-  },
-  {
-    icon: "nature",
-    title: "Land Management",
-    description: "Focusing on long-term stewardship and conservation of rural and agricultural land.",
+    title: "Sellers",
+    description:
+      "We close on your land. We purchase raw and vacant land directly from owners across the country — no listing, no commission, no agent fees, and no parade of strangers walking on your property.",
   },
   {
     icon: "handshake",
-    title: "Consultation",
-    description: "Expert guidance on land valuation, heritage, and legacy planning for your property.",
+    title: "Buyers",
+    description:
+      "Looking to purchase raw, undeveloped land? We work with builders and developers across the country to provide property for future projects.",
   },
 ];
 
@@ -226,7 +223,7 @@ const STEPS = [
   {
     number: 2,
     title: "Receive Fair Offer",
-    description: "We evaluate your land and present a no-obligation cash offer within 48 hours.",
+    description: "We evaluate your land and present a no-obligation cash offer within 48-72 hours.",
   },
   {
     number: 3,
@@ -245,7 +242,7 @@ const TESTIMONIALS = [
     name: "Sarah M., Georgia",
   },
   {
-    quote: "Fair pricing and incredibly fast closing. I highly recommend Terra Heritage if you're looking to sell vacant land.",
+    quote: "Fair pricing and incredibly fast closing. I highly recommend Beacon Land Holdings if you're looking to sell vacant land.",
     name: "David L., Ohio",
   },
 ];
@@ -254,7 +251,7 @@ const FAQS = [
   {
     question: "How long does the process take?",
     answer:
-      "Typically, we present an offer within 48 hours of reviewing your property details. If accepted, closing usually takes 2 to 4 weeks depending on the complexity of title work.",
+      "Typically, we present an offer within 48-72 hours of reviewing your property details. From our first conversation to closing, the average transaction takes 30 to 90 days.",
   },
   {
     question: "Are there any hidden fees or commissions?",

@@ -1,7 +1,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-export const metadata = { title: "Terms of Service | Terra Heritage" };
+export const metadata = { title: "Terms of Service | Beacon Land Holdings" };
 
 export default function TermsOfServicePage() {
   return (
@@ -18,13 +18,13 @@ export default function TermsOfServicePage() {
               the property described.
             </p>
             <p>
-              Any valuation or offer provided by Terra Heritage is preliminary and non-binding until formalized in a
-              written purchase agreement signed by both parties. Terra Heritage reserves the right to decline any
+              Any valuation or offer provided by Beacon Land Holdings is preliminary and non-binding until formalized in a
+              written purchase agreement signed by both parties. Beacon Land Holdings reserves the right to decline any
               submission or withdraw an offer prior to closing.
             </p>
             <p>
               This website and its content are provided "as is" without warranties of any kind. For questions about
-              these terms, contact us at contact@terraheritage.com.
+              these terms, contact us at contact@beaconlandholdings.com.
             </p>
           </div>
         </div>

@@ -1,7 +1,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-export const metadata = { title: "Privacy Policy | Terra Heritage" };
+export const metadata = { title: "Privacy Policy | Beacon Land Holdings" };
 
 export default function PrivacyPolicyPage() {
   return (
@@ -13,7 +13,7 @@ export default function PrivacyPolicyPage() {
           <div className="font-body-md text-on-surface-variant space-y-6">
             <p>Last updated: 2026</p>
             <p>
-              Terra Heritage Land Investments ("we", "us") collects information you voluntarily submit through our
+              Beacon Land Holdings ("we", "us") collects information you voluntarily submit through our
               property valuation form, including your name, contact details, and information about your land. This
               information is used solely to evaluate your property and communicate with you about a potential
               purchase.
@@ -24,7 +24,7 @@ export default function PrivacyPolicyPage() {
             </p>
             <p>
               You may request that we delete your information at any time by contacting us at
-              contact@terraheritage.com.
+              contact@beaconlandholdings.com.
             </p>
           </div>
         </div>

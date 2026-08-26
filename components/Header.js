@@ -18,12 +18,12 @@ export default function Header() {
       <div className="max-w-max-width mx-auto px-margin-mobile md:px-margin-desktop flex justify-between items-center h-20">
         <Link href="/" className="flex items-center gap-3 active:scale-95 transition-transform group">
           <img
-            alt="Terra Heritage Logo"
+            alt="Beacon Land Holdings Logo"
             className="h-10 w-auto opacity-90 group-hover:opacity-100 transition-opacity"
             src="https://lh3.googleusercontent.com/aida-public/AB6AXuCppJO6_mDK4ib4lUzJAiaJsbyLZ9RGzi3xTbx9QLqgO_e0UvmqNOuOSIFi6575fkzopAwhWTxB1EWA0ARABNIa4I-AxHOFxByGkBBPy-pyQWSbUme0GPFmsD_Cmd9VeOo8sNjWliBmAM6P-WkII-3NtXZhYcC2IJThRYRxmLr8FhuaAkzog8eOTrBmpYwEudZItBwGtN8a6Xdg1lRTJkTd5DqJr8P929q9_3BacZLk-DF-MUhWaO4"
           />
           <span className="font-display-lg text-headline-sm font-bold text-primary tracking-tight hidden sm:block">
-            TERRA HERITAGE
+            BEACON LAND HOLDINGS
           </span>
         </Link>
 

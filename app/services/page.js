@@ -2,38 +2,24 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "Services | Terra Heritage",
-  description: "Explore Terra Heritage's land investment services: direct cash offers, land management, and consultation.",
+  title: "Services | Beacon Land Holdings",
+  description: "Beacon Land Holdings works with both sellers and buyers of raw and vacant land across the country.",
 };
 
 const SERVICES = [
   {
     icon: "payments",
-    title: "Direct Cash Offers",
+    title: "Sellers",
+    heading: "WE Close On Your Land.",
     description:
-      "We purchase land directly, with no financing contingencies or bank approvals to slow things down. You receive a clear, no-obligation cash offer, and if you accept, we cover 100% of standard closing costs.",
-    points: ["No realtor commissions", "No financing delays", "Close in as little as 2 weeks"],
-  },
-  {
-    icon: "nature",
-    title: "Land Management",
-    description:
-      "For acquired properties, we focus on long-term stewardship &mdash; conservation practices, responsible agricultural use, and preservation of natural resources for future generations.",
-    points: ["Sustainable land use planning", "Conservation-first approach", "Ongoing property upkeep"],
+      "We purchase raw and vacant land directly from owners across the country. Most of our acquisitions come from off-market relationships. There's no listing, no commission, no agent fees and no parade of strangers walking on your property. You speak with the same person from first conversation to wire transfer, and we close on the number we put in writing. From our first conversation to closing the average transaction takes 30 &ndash; 90 days.",
   },
   {
     icon: "handshake",
-    title: "Consultation",
+    title: "Buyers",
+    heading: null,
     description:
-      "Not ready to sell? We offer expert guidance on land valuation, heritage planning, and legacy strategies to help you make the most informed decision about your property's future.",
-    points: ["Free property valuations", "Heritage & legacy planning", "No-pressure advice"],
-  },
-  {
-    icon: "gavel",
-    title: "Title & Closing Support",
-    description:
-      "Our team coordinates directly with title companies to resolve liens, back taxes, and probate issues that often stall traditional land sales.",
-    points: ["Clear title resolution", "Probate & estate support", "Full paperwork handling"],
+      "If you are looking to purchase raw, undeveloped land reach out to us. We work with several builders and developers across the country to provide them with property for future projects. Let us know what you are looking for and our acquisition team will be in touch.",
   },
 ];
 
@@ -48,7 +34,7 @@ export default function ServicesPage() {
             Services / What We Do
           </h1>
           <p className="font-body-lg text-body-lg text-on-primary/80 max-w-2xl mx-auto">
-            Comprehensive, transparent solutions for land owners at every stage of the decision-making process.
+            Transparent solutions for landowners ready to sell, and for buyers looking to acquire raw land.
           </p>
         </div>
       </section>
@@ -69,18 +55,13 @@ export default function ServicesPage() {
               </div>
               <div>
                 <h2 className="font-headline-md text-headline-md text-primary mb-4">{service.title}</h2>
+                {service.heading && (
+                  <p className="font-headline-sm text-headline-sm text-primary mb-4">{service.heading}</p>
+                )}
                 <p
-                  className="font-body-md text-body-md text-on-surface-variant mb-6 max-w-2xl"
+                  className="font-body-md text-body-md text-on-surface-variant max-w-2xl"
                   dangerouslySetInnerHTML={{ __html: service.description }}
                 />
-                <ul className="space-y-2">
-                  {service.points.map((point) => (
-                    <li key={point} className="flex items-center gap-3 font-body-sm text-body-sm text-on-surface-variant">
-                      <span className="material-symbols-outlined text-warm-clay text-[18px]">check_circle</span>
-                      {point}
-                    </li>
-                  ))}
-                </ul>
               </div>
             </div>
           ))}
@@ -91,7 +72,7 @@ export default function ServicesPage() {
         <div className="max-w-max-width mx-auto px-margin-mobile md:px-margin-desktop text-center">
           <h2 className="font-headline-md text-headline-md text-primary mb-6">Interested in a Free Valuation?</h2>
           <p className="font-body-md text-body-md text-on-surface-variant max-w-xl mx-auto mb-10">
-            Submit your property details and we'll respond with a no-obligation cash offer within 48 hours.
+            Submit your property details and we'll respond with a no-obligation cash offer within 48-72 hours.
           </p>
           <a
             href="/contact"

@@ -2,25 +2,25 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "About Us | Terra Heritage",
-  description: "Learn about Terra Heritage's mission of stewardship, transparency, and long-term land investment.",
+  title: "About Us | Beacon Land Holdings",
+  description: "Learn about Beacon Land Holdings' commitment to honesty, integrity, and relationships in land investment.",
 };
 
 const VALUES = [
   {
-    icon: "eco",
-    title: "Stewardship",
-    description: "We treat every acre as a legacy asset, prioritizing sustainable, long-term land management over short-term gain.",
-  },
-  {
-    icon: "visibility",
-    title: "Transparency",
-    description: "No hidden fees, no confusing contracts. Every offer and every step of the process is explained plainly.",
-  },
-  {
     icon: "verified",
+    title: "Honesty",
+    description: "Every offer, every timeline, and every detail is explained clearly, with nothing hidden along the way.",
+  },
+  {
+    icon: "shield",
     title: "Integrity",
-    description: "We honor the history behind every property and work fairly with families navigating complex decisions.",
+    description: "We do what we say we'll do. The number we put in writing is the number you receive at closing.",
+  },
+  {
+    icon: "handshake",
+    title: "Relationships",
+    description: "We build long-term relationships with landowners, builders, and developers rooted in trust, not transactions.",
   },
 ];
 
@@ -39,10 +39,11 @@ export default function AboutPage() {
         </div>
         <div className="relative z-10 max-w-max-width mx-auto px-margin-mobile md:px-margin-desktop text-center">
           <h1 className="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-on-primary uppercase tracking-wide mb-6">
-            About Terra Heritage
+            About Beacon Land Holdings
           </h1>
           <p className="font-body-lg text-body-lg text-on-primary/80 max-w-2xl mx-auto">
-            A generational approach to land investment, built on trust, patience, and respect for the land itself.
+            We are a family owned and operated land investment company. Our business is based on honesty, integrity
+            and relationships.
           </p>
         </div>
       </section>
@@ -60,19 +61,19 @@ export default function AboutPage() {
             <h2 className="font-headline-md text-headline-md text-primary mb-6 uppercase tracking-wider">Our Story</h2>
             <div className="font-body-md text-on-surface-variant space-y-6">
               <p>
-                Terra Heritage was founded on a simple belief: land owners deserve a faster, fairer, and more
-                transparent way to sell rural and vacant land. Too often, sellers are left navigating slow markets,
-                confusing paperwork, and unreliable buyers.
+                We are a family owned and operated land investment company. Our business is based on honesty,
+                integrity and relationships. We will work with you to make the transaction as simple and painless as
+                possible.
               </p>
               <p>
                 We built our company to change that. By offering direct cash purchases, handling all closing costs,
-                and communicating clearly at every step, we've helped landowners across the Southeast and Midwest
-                move forward with confidence &mdash; whether they're settling an estate, offloading an inherited
-                parcel, or simply ready to convert land into liquidity.
+                and communicating clearly at every step, we've helped landowners move forward with confidence
+                &mdash; whether they're settling an estate, offloading an inherited parcel, or simply ready to
+                convert land into liquidity.
               </p>
               <p>
-                Every transaction we complete is guided by our commitment to conservation and long-term stewardship,
-                ensuring the land we acquire is managed responsibly for generations to come.
+                Every transaction we complete is guided by direct, honest communication &mdash; no realtors, no
+                hidden fees, and no unnecessary delays. Just a simple, fair process from your first call to closing.
               </p>
             </div>
           </div>
